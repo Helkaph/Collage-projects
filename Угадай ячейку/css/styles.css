@@ -1,0 +1,15 @@
+td {
+	width: 75px;
+	height: 75px;
+	border: 1px solid black;
+	text-align: center;
+}
+#a {
+	width: 800px;
+}
+.g {
+	background-color: green;
+}
+.r {
+	background-color: red;
+}
