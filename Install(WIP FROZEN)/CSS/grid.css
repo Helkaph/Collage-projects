@@ -1,0 +1,114 @@
+[class^="maria-"] {
+    display: grid;
+    place-items: center;
+}
+#maria {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-areas: 
+    "AM AM AM AM AM AM AM AM AM AM"
+    "AI AI AI AI AI AI AI AI AI AI"
+    "AI AI AI AI AI AI AI AI AI AI"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "AV AV AV AV AV AV AV AV AV AV"
+    "S S S S S S S S S S"
+    "S S S S S S S S S S"
+    "S S S S S S S S S S"
+    "S S S S S S S S S S";
+}
+.maria-header {
+    grid-area: AM;
+}
+.maria-AI {
+    grid-area: AI;
+}
+#RatatoskrVI {
+    grid-area: AV;
+}
+#Seirei {
+    grid-area: S;
+}
+
+
+[class^="marina-"] {
+    display: grid;
+    place-items: center;
+}
+.marina-header {
+    grid-area: MA;
+}
+#DEMVI {
+    grid-area: MV;
+}
+.marina-up {
+    grid-area: MU;
+}
+.marina-down {
+    grid-area: MD;
+}
+#marina {
+    display: none;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-areas:
+    "MA MA MA MA MA MA MA MA MA MA"
+    "MU MU MU MU MU MU MU MU MU MU"
+    "MU MU MU MU MU MU MU MU MU MU"
+    "MU MU MU MU MU MU MU MU MU MU"
+    "MV MV MV MV MV MV MV MV MV MV"
+    "MV MV MV MV MV MV MV MV MV MV"
+    "MV MV MV MV MV MV MV MV MV MV"
+    "MV MV MV MV MV MV MV MV MV MV"
+    "MV MV MV MV MV MV MV MV MV MV"
+    "MD MD MD MD MD MD MD MD MD MD"
+    "MD MD MD MD MD MD MD MD MD MD"
+    "MD MD MD MD MD MD MD MD MD MD"
+    "MD MD MD MD MD MD MD MD MD MD";
+}
+
+
+[class^="nibel"] {
+    display: grid;
+}
+.nibel-header {
+    grid-area: NH;
+}
+#Beelzebub {
+    grid-area: NV;
+}
+.nibel-left {
+    grid-area: NL;
+}
+.nibel-right {
+    grid-area: NR;
+}
+#nibelcole {
+    display: none;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-areas: 
+    "NH NH NH NH NH NH NH NH NH"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR"
+    "NV NV NV NL NL NL NR NR NR";
+}
