@@ -1,0 +1,21 @@
+export let objn = {
+a: '!Doctype',
+b: 'a',
+c: 'b',
+d: 'body',
+e: 'br',
+f: 'div',
+g: 'head',
+h: 'html',
+i: 'img',
+j: 'input',
+k: 'li',
+l: 'option',
+m: 'script',
+n: 'span',
+o: 'table',
+p: 'tbody',
+q: 'td',
+r: 'th',
+s: 'ul'
+}
