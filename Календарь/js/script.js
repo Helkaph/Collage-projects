@@ -41,7 +41,7 @@ function createTable(parent, arr) {
 }
 
 function normalize(arr, left,right) {
-    for (let i = 0; i < left; i++) {
+    for (let i = 0; i <= left; i++) {
         arr.unshift('')
     }
     for (let i = 0; i < right; i++) {
